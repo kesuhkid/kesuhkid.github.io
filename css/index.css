@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://github.com/kesuhkid/kesuhkid.github.io/blob/main/IMG/FONDO%20Kesuh%20KID%20WEB%20sin%20logo.png?raw=true);
+    background-repeat: no-repeat;
+}
+.hero-img{
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+}
+.hero-main{
+    display: grid;
+    text-align: center;
+}
+.hero-title{
+    font-family: 'Courier New', Courier, monospace;
+}
+.redes-ok{
+    display: grid;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+.tex-ig{
+   display: grid;
+   position: absolute;
+   left: 40%;
+   align-items: center;
+}
+.img-yt{
+    display: grid;
+    position: absolute;
+    left: 57%;
+    align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .hero-ok {
+
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-ok{
+
+    }
+}
+
+@media (min-width: 991px) {
+    .hero-ok{
+
+    }
+}
